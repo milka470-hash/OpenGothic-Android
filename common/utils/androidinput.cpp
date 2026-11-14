@@ -894,6 +894,7 @@ void AndroidInput::Controller::paintInventoryButton(Painter& p, Font& font, size
   }
 
 void AndroidInput::Controller::paintStick(Painter& p) {
+  return;
   const auto  r      = controls.stickArea();
   const float cx     = controls.stickCenterX();
   const float cy     = controls.stickCenterY();
